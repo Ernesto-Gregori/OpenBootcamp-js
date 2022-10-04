@@ -3,8 +3,7 @@ import chalk from 'chalk';
 
 const log = console.log;
 
-const sum = suma(4, 5);
-console.log(sum);
+const multiplicar = multiplica(suma(4, 5), suma(1, 2));
 
-const multiplicar = multiplica(1, 2);
+console.log(multiplicar)
 log(chalk.green(multiplicar));
