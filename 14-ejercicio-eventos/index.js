@@ -1,7 +1,7 @@
 const alert = document.querySelector("#btn-alert");
 
 alert.addEventListener("click", () => {
-    console.log("Click en el boton")
+    alert("click en el boton")
 })
 
 $(() => {
